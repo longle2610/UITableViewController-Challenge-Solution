@@ -1,5 +1,5 @@
 //
-//  LDLViewController.h
+//  LDLTableViewController.h
 //  First Table View
 //
 //  Created by Long Le on 8/6/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LDLViewController : UIViewController
+@interface LDLTableViewController : UITableViewController
 
 @end

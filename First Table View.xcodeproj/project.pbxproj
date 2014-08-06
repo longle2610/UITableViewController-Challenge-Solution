@@ -14,13 +14,13 @@
 		454455021992E1DE00AEAE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454455011992E1DE00AEAE6C /* main.m */; };
 		454455061992E1DE00AEAE6C /* LDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454455051992E1DE00AEAE6C /* LDLAppDelegate.m */; };
 		454455091992E1DE00AEAE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454455071992E1DE00AEAE6C /* Main.storyboard */; };
-		4544550C1992E1DE00AEAE6C /* LDLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544550B1992E1DE00AEAE6C /* LDLViewController.m */; };
 		4544550E1992E1DE00AEAE6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4544550D1992E1DE00AEAE6C /* Images.xcassets */; };
 		454455151992E1DE00AEAE6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454455141992E1DE00AEAE6C /* XCTest.framework */; };
 		454455161992E1DE00AEAE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454454F51992E1DE00AEAE6C /* Foundation.framework */; };
 		454455171992E1DE00AEAE6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454454F91992E1DE00AEAE6C /* UIKit.framework */; };
 		4544551F1992E1DE00AEAE6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4544551D1992E1DE00AEAE6C /* InfoPlist.strings */; };
 		454455211992E1DE00AEAE6C /* First_Table_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454455201992E1DE00AEAE6C /* First_Table_ViewTests.m */; };
+		4544552C1992E22100AEAE6C /* LDLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544552B1992E22100AEAE6C /* LDLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		454455041992E1DE00AEAE6C /* LDLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDLAppDelegate.h; sourceTree = "<group>"; };
 		454455051992E1DE00AEAE6C /* LDLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDLAppDelegate.m; sourceTree = "<group>"; };
 		454455081992E1DE00AEAE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4544550A1992E1DE00AEAE6C /* LDLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDLViewController.h; sourceTree = "<group>"; };
-		4544550B1992E1DE00AEAE6C /* LDLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDLViewController.m; sourceTree = "<group>"; };
 		4544550D1992E1DE00AEAE6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		454455131992E1DE00AEAE6C /* First Table ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First Table ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		454455141992E1DE00AEAE6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4544551C1992E1DE00AEAE6C /* First Table ViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "First Table ViewTests-Info.plist"; sourceTree = "<group>"; };
 		4544551E1992E1DE00AEAE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454455201992E1DE00AEAE6C /* First_Table_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First_Table_ViewTests.m; sourceTree = "<group>"; };
+		4544552A1992E22100AEAE6C /* LDLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLTableViewController.h; sourceTree = "<group>"; };
+		4544552B1992E22100AEAE6C /* LDLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				454455041992E1DE00AEAE6C /* LDLAppDelegate.h */,
 				454455051992E1DE00AEAE6C /* LDLAppDelegate.m */,
 				454455071992E1DE00AEAE6C /* Main.storyboard */,
-				4544550A1992E1DE00AEAE6C /* LDLViewController.h */,
-				4544550B1992E1DE00AEAE6C /* LDLViewController.m */,
+				4544552A1992E22100AEAE6C /* LDLTableViewController.h */,
+				4544552B1992E22100AEAE6C /* LDLTableViewController.m */,
 				4544550D1992E1DE00AEAE6C /* Images.xcassets */,
 				454454FC1992E1DE00AEAE6C /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4544550C1992E1DE00AEAE6C /* LDLViewController.m in Sources */,
 				454455021992E1DE00AEAE6C /* main.m in Sources */,
 				454455061992E1DE00AEAE6C /* LDLAppDelegate.m in Sources */,
+				4544552C1992E22100AEAE6C /* LDLTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
